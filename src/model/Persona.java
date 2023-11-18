@@ -3,7 +3,11 @@ package model;
 public class Persona {
     private String name;
     private int edad;
+<<<<<<< HEAD
     private int saldo;
+=======
+    private int sueldo;
+>>>>>>> feature/juan2
 
     public Persona(String name, int edad) {
         this.name = name;
