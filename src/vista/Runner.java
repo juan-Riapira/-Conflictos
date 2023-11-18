@@ -6,7 +6,8 @@ public class Runner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("ingrese el nombre ");
-        String nombre = sc.nextLine();
+        System.out.println("ingrese el año");
+
+        int año = sc.nextInt();
     }
 }
