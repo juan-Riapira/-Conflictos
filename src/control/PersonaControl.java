@@ -8,6 +8,13 @@ public class PersonaControl {
 
     ArrayList<Persona> persona = new ArrayList<>();
 
+    public void delete(String nombre) {
+        persona.remove(nombre);
+
+    }
+
+    }
+
     public boolean addPerson(String name, int age) {
 
         Persona p1 = new Persona(name, age);
@@ -17,5 +24,9 @@ public class PersonaControl {
 
         }
         return false;
+    }
+
+    public Persona findPersona() {
+
     }
 }
